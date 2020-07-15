@@ -289,3 +289,34 @@ input {
   border: 0.1rem #c0c0c0 solid;
   border-radius: 0.5rem;
 }
+
+/* Products*/
+.button-edit {
+  background-color: #4caf50;
+  border-radius: 1rem;
+  border: none;
+}
+.button-delete {
+  background-color: #f44336;
+  border-radius: 1rem;
+  border: none;
+}
+
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.content-margined {
+  margin: 1rem;
+}
+.table{
+  width: 100%;
+}
+th{
+  text-align: left;
+}
+tbody>tr:nth-child(odd){
+background-color: #f0f0ff;
+}
